@@ -1,0 +1,17 @@
+[user]
+    name = "DimaPhil"
+    email = dmitry239philippov@gmail.com
+[core]
+    editor = vim
+    hooksPath = /home/dmitry/Documents/work/configs/git/
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+
+[credential]
+    helper = store

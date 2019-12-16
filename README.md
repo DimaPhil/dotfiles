@@ -1,3 +1,3 @@
 # dotfiles
 
-This repository contains dotfiles and different configurations.
+This repository contains dotfiles and different configuration files.
