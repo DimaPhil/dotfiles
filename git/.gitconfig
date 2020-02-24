@@ -1,6 +1,6 @@
 [user]
     name = "DimaPhil"
-    email = dmitry239philippov@gmail.com
+    email = dima239philippov@gmail.com
 [core]
     editor = vim
     hooksPath = /home/dmitry/Documents/work/configs/git/
