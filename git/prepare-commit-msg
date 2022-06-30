@@ -2,7 +2,6 @@
 
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
 BRANCH_NAME="${BRANCH_NAME##*/}"
-
 BRANCH_IN_COMMIT=$(grep -c "$BRANCH_NAME" $1)
 
 if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then 
